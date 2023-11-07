@@ -13,7 +13,7 @@
 :root{
     --text-color: #ffffff;
     --bg-color: #050f06;
-    --main-color: #259e76;
+    --main-color: #53f7c0;
 
     --h1-font: 6rem;
     --h2-font: 3rem;
@@ -58,6 +58,70 @@ span{
     font-weight: 500;
     margin: 15px 22px;
     transition: all .50 ease;
-    
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+}
+
+#menu-icon{
+    color: var(--text-color);
+    font-size: 30 px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+section{
+    padding: 70px 17% 60px;
+}
+
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(../img/img7.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.text-home h1{
+    font-size: var(--h1-font);
+    font-weight: 600;
+    line-height: 1.0;
+    margin-bottom: 20px;
+}
+
+.text-home p{
+font-size: var(--p-font);
+font-weight: 500;
+line-height: 30px;
+color: #ffffff;
+margin-bottom: 35px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 13px 40px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 15px;
+    font-weight: 600;
+    border: 3px solid transparent;
+    border-radius: 50px;
+    transition: all .50 ease;
+    cursor: pointer;
+}
+
+.btn1{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: transparent;
+    color: var(--text-color);
 
 }
