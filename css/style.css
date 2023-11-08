@@ -128,3 +128,16 @@ margin-bottom: 35px;
     cursor: pointer;
     border-radius: 22px;
 }
+
+.btn:hover{
+    transform: translateX(5px);
+    border: 2px solid var(--text-color);
+    background: transparent;
+    color: var(--text-color);
+}
+
+.btn1:hover{
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+}
+
