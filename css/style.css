@@ -186,22 +186,49 @@ header.sticky{
 }
 
 .conocenos{
-    display: grid;
-    grid-template-columns: repeat(2, 1 fr);
-    align-items: center;
-    gap: 9rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.conocenos-img,
+.conocenos-text {
+    flex: 1 0 100%;
+    margin: 36px;
+}
+
+@media screen and (min-width: 461px) {
+    .conocenos-img,
+    .conocenos-text {
+        flex: 1;
+    }
+}
 
 .conocenos-img img{
-    width: 50%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.conocenos-text h3{
-    font-size: var(--p-font);
+
+.conocenos-text h5{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+
+.conocenos-text h2{
+    font-size: var(--h2-font);
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 25px;
+}
+
+.conocenos-text p{
+    font-size: var(--p-font);
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 35px;
 }
