@@ -291,6 +291,10 @@ header.sticky{
     }
 }
 
+.content i{
+    color: yellow;
+}
+
 .btn2{
     background-color: transparent; 
     border: 2px solid var(--main-color); 
