@@ -25,7 +25,8 @@
                 <li><a href="#Reseñas">Reseñas</a></li>
                 <li><a href="#Contáctanos">Contáctanos</a></li>
             </ul>
-        <button class="btn1">Iniciar sesion</button>
+                <button class="btn1">Iniciar sesion</button>
+            </ul>
         <div class="bx bx-menu" id="menu-icon"></div>
     </header>
 
@@ -268,18 +269,59 @@
             </div>
         </div>
     </section>
+
+    <section class="newsletters">
+        <div class="newsletters-content">
+            <div class="newsletters-text">
+                <h2 id="Contáctanos">¿Listo para explorar?</h2>
+                <p>Vamos juntos!</p>
+            </div>
+
+            <form id="solicitud">
+                <input type="email" placeholder="Ingresa tu email..." required>
+                <input type="submit" value="Comencemos" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer-box">
+            <h3>Servicios</h3>
+            <a href="#">Marketing @</a>
+            <a href="#">Campañas</a>
+            <a href="#">Marca</a>
+            <a href="#">Offline</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Nosotros</h3>
+            <a href="#">Historia</a>
+            <a href="#">Beneficios</a>
+            <a href="#">Equipo</a>
+            <a href="#">Carreras</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Ayuda</h3>
+            <a href="#">QFA</a>
+            <a href="#">Contactanos</a>
+        </div>
+        
+        <div class="footer-box">
+            <h3>Social</h3>
+            <div class="social">
+                <a href="#"><i class="ri-instagram-fill" style='color:#fef9f9'></i></a>
+                <a href="#"><i class="ri-facebook-fill" style="color: #fef9f9"></i></a>
+                <a href="#"><i class="ri-twitter-fill" style='color: #fef9f9'></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <div class="copyright">
+        <p>copyright por Ethan Alejandro Mezu 2023</p>
+    </div>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper('.review-slider', {
-        slidesPerView: 'auto',
-        spaceBetween: 30,
-        mousewheel: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-    });
-    </script>
+    
 </body>
 </html>
